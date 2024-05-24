@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Palette Inverter</title>
+    <style>
+        body {
+            background-color: #1c2331;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #ffffff;
+        }
+        
+        form {
+            margin-top: 30px;
+        }
+        
+        input[type="file"] {
+            margin-bottom: 20px;
+        }
+        
+        input[type="submit"] {
+            background-color: #4c5f7a;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #3a4c63;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Palette Inverter</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".col">
+        <br>
+        <input type="submit" value="Invert Colors">
+    </form>
+</body>
+</html>
